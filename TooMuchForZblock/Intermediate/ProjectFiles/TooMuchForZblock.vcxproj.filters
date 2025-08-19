@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TooMuchForZblock.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TooMuchForZblock.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TooMuchForZblockEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TooMuchForZblock">
+      <UniqueIdentifier>{B51B954F-088F-370B-9B16-6327563DE913}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TooMuchForZblock\TooMuchForZblock.Build.cs">
+      <Filter>Source\TooMuchForZblock</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblock.cpp">
+      <Filter>Source\TooMuchForZblock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblock.h">
+      <Filter>Source\TooMuchForZblock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockCharacter.cpp">
+      <Filter>Source\TooMuchForZblock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockCharacter.h">
+      <Filter>Source\TooMuchForZblock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockGameMode.cpp">
+      <Filter>Source\TooMuchForZblock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockGameMode.h">
+      <Filter>Source\TooMuchForZblock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockPickUpComponent.cpp">
+      <Filter>Source\TooMuchForZblock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockPickUpComponent.h">
+      <Filter>Source\TooMuchForZblock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockProjectile.cpp">
+      <Filter>Source\TooMuchForZblock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockProjectile.h">
+      <Filter>Source\TooMuchForZblock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockWeaponComponent.cpp">
+      <Filter>Source\TooMuchForZblock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockWeaponComponent.h">
+      <Filter>Source\TooMuchForZblock</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-TooMuchForZblock.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Epic Games\UnrealProjects\TooMuchForZblock\TooMuchForZblock\Intermediate\Build\Win64\x64\TooMuchForZblockEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"D:\Epic Games\UnrealProjects\TooMuchForZblock\TooMuchForZblock\Intermediate\Build\Win64\x64\UnrealEditor\Development\TooMuchForZblock\TooMuchForZblock.init.gen.cpp.obj"
+"D:\Epic Games\UnrealProjects\TooMuchForZblock\TooMuchForZblock\Intermediate\Build\Win64\x64\UnrealEditor\Development\TooMuchForZblock\TooMuchForZblockCharacter.gen.cpp.obj"
+"D:\Epic Games\UnrealProjects\TooMuchForZblock\TooMuchForZblock\Intermediate\Build\Win64\x64\UnrealEditor\Development\TooMuchForZblock\TooMuchForZblockGameMode.gen.cpp.obj"
+"D:\Epic Games\UnrealProjects\TooMuchForZblock\TooMuchForZblock\Intermediate\Build\Win64\x64\UnrealEditor\Development\TooMuchForZblock\TooMuchForZblockPickUpComponent.gen.cpp.obj"
+"D:\Epic Games\UnrealProjects\TooMuchForZblock\TooMuchForZblock\Intermediate\Build\Win64\x64\UnrealEditor\Development\TooMuchForZblock\TooMuchForZblockProjectile.gen.cpp.obj"
+"D:\Epic Games\UnrealProjects\TooMuchForZblock\TooMuchForZblock\Intermediate\Build\Win64\x64\UnrealEditor\Development\TooMuchForZblock\TooMuchForZblockWeaponComponent.gen.cpp.obj"
+"D:\Epic Games\UnrealProjects\TooMuchForZblock\TooMuchForZblock\Intermediate\Build\Win64\x64\UnrealEditor\Development\TooMuchForZblock\TooMuchForZblock.cpp.obj"
+"D:\Epic Games\UnrealProjects\TooMuchForZblock\TooMuchForZblock\Intermediate\Build\Win64\x64\UnrealEditor\Development\TooMuchForZblock\TooMuchForZblockCharacter.cpp.obj"
+"D:\Epic Games\UnrealProjects\TooMuchForZblock\TooMuchForZblock\Intermediate\Build\Win64\x64\UnrealEditor\Development\TooMuchForZblock\TooMuchForZblockGameMode.cpp.obj"
+"D:\Epic Games\UnrealProjects\TooMuchForZblock\TooMuchForZblock\Intermediate\Build\Win64\x64\UnrealEditor\Development\TooMuchForZblock\TooMuchForZblockPickUpComponent.cpp.obj"
+"D:\Epic Games\UnrealProjects\TooMuchForZblock\TooMuchForZblock\Intermediate\Build\Win64\x64\UnrealEditor\Development\TooMuchForZblock\TooMuchForZblockProjectile.cpp.obj"
+"D:\Epic Games\UnrealProjects\TooMuchForZblock\TooMuchForZblock\Intermediate\Build\Win64\x64\UnrealEditor\Development\TooMuchForZblock\TooMuchForZblockWeaponComponent.cpp.obj"
+"D:\Epic Games\UnrealProjects\TooMuchForZblock\TooMuchForZblock\Intermediate\Build\Win64\x64\UnrealEditor\Development\TooMuchForZblock\PerModuleInline.gen.cpp.obj"
+"D:\Epic Games\UnrealProjects\TooMuchForZblock\TooMuchForZblock\Intermediate\Build\Win64\x64\UnrealEditor\Development\TooMuchForZblock\Default.rc2.res"
+/OUT:"D:\Epic Games\UnrealProjects\TooMuchForZblock\TooMuchForZblock\Intermediate\Build\Win64\x64\UnrealEditor\Development\TooMuchForZblock\UnrealEditor-TooMuchForZblock.lib"

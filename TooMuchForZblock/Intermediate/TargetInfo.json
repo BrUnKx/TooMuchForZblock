@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TooMuchForZblock",
+			"Path": "..\\Source\\TooMuchForZblock.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TooMuchForZblockEditor",
+			"Path": "..\\Source\\TooMuchForZblockEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

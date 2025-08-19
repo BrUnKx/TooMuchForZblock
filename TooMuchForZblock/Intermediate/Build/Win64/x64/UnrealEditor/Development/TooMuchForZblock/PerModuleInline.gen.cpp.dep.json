@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\toomuchforzblock\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\intermediate\\build\\win64\\x64\\toomuchforzblockeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\toomuchforzblock\\definitions.toomuchforzblock.h",
+            "d:\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

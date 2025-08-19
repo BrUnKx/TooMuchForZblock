@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Epic Games\\UnrealProjects\\TooMuchForZblock\\TooMuchForZblock\\Source\\TooMuchForZblock\\TooMuchForZblock.Build.cs",
+		"D:\\Epic Games\\UnrealProjects\\TooMuchForZblock\\TooMuchForZblock\\Source\\TooMuchForZblock.Target.cs",
+		"D:\\Epic Games\\UnrealProjects\\TooMuchForZblock\\TooMuchForZblock\\Source\\TooMuchForZblockEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}
