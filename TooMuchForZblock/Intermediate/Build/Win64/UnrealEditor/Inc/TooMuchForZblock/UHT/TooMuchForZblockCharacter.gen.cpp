@@ -5,53 +5,272 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "TooMuchForZblock/TooMuchForZblockCharacter.h"
+#include "TooMuchForZblockCharacter.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeTooMuchForZblockCharacter() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
-ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 TOOMUCHFORZBLOCK_API UClass* Z_Construct_UClass_ATooMuchForZblockCharacter();
 TOOMUCHFORZBLOCK_API UClass* Z_Construct_UClass_ATooMuchForZblockCharacter_NoRegister();
 UPackage* Z_Construct_UPackage__Script_TooMuchForZblock();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class ATooMuchForZblockCharacter
+// ********** Begin Class ATooMuchForZblockCharacter Function DoAim ********************************
+struct Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim_Statics
+{
+	struct TooMuchForZblockCharacter_eventDoAim_Parms
+	{
+		float Yaw;
+		float Pitch;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Input" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** Handles aim inputs from either controls or UI interfaces */" },
+#endif
+		{ "ModuleRelativePath", "TooMuchForZblockCharacter.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Handles aim inputs from either controls or UI interfaces" },
+#endif
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_Yaw;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_Pitch;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim_Statics::NewProp_Yaw = { "Yaw", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TooMuchForZblockCharacter_eventDoAim_Parms, Yaw), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim_Statics::NewProp_Pitch = { "Pitch", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TooMuchForZblockCharacter_eventDoAim_Parms, Pitch), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim_Statics::NewProp_Yaw,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim_Statics::NewProp_Pitch,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ATooMuchForZblockCharacter, nullptr, "DoAim", Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim_Statics::PropPointers), sizeof(Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim_Statics::TooMuchForZblockCharacter_eventDoAim_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim_Statics::Function_MetaDataParams), Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim_Statics::TooMuchForZblockCharacter_eventDoAim_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ATooMuchForZblockCharacter::execDoAim)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_Yaw);
+	P_GET_PROPERTY(FFloatProperty,Z_Param_Pitch);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->DoAim(Z_Param_Yaw,Z_Param_Pitch);
+	P_NATIVE_END;
+}
+// ********** End Class ATooMuchForZblockCharacter Function DoAim **********************************
+
+// ********** Begin Class ATooMuchForZblockCharacter Function DoJumpEnd ****************************
+struct Z_Construct_UFunction_ATooMuchForZblockCharacter_DoJumpEnd_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Input" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** Handles jump end inputs from either controls or UI interfaces */" },
+#endif
+		{ "ModuleRelativePath", "TooMuchForZblockCharacter.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Handles jump end inputs from either controls or UI interfaces" },
+#endif
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ATooMuchForZblockCharacter_DoJumpEnd_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ATooMuchForZblockCharacter, nullptr, "DoJumpEnd", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ATooMuchForZblockCharacter_DoJumpEnd_Statics::Function_MetaDataParams), Z_Construct_UFunction_ATooMuchForZblockCharacter_DoJumpEnd_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_ATooMuchForZblockCharacter_DoJumpEnd()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ATooMuchForZblockCharacter_DoJumpEnd_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ATooMuchForZblockCharacter::execDoJumpEnd)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->DoJumpEnd();
+	P_NATIVE_END;
+}
+// ********** End Class ATooMuchForZblockCharacter Function DoJumpEnd ******************************
+
+// ********** Begin Class ATooMuchForZblockCharacter Function DoJumpStart **************************
+struct Z_Construct_UFunction_ATooMuchForZblockCharacter_DoJumpStart_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Input" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** Handles jump start inputs from either controls or UI interfaces */" },
+#endif
+		{ "ModuleRelativePath", "TooMuchForZblockCharacter.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Handles jump start inputs from either controls or UI interfaces" },
+#endif
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ATooMuchForZblockCharacter_DoJumpStart_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ATooMuchForZblockCharacter, nullptr, "DoJumpStart", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ATooMuchForZblockCharacter_DoJumpStart_Statics::Function_MetaDataParams), Z_Construct_UFunction_ATooMuchForZblockCharacter_DoJumpStart_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_ATooMuchForZblockCharacter_DoJumpStart()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ATooMuchForZblockCharacter_DoJumpStart_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ATooMuchForZblockCharacter::execDoJumpStart)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->DoJumpStart();
+	P_NATIVE_END;
+}
+// ********** End Class ATooMuchForZblockCharacter Function DoJumpStart ****************************
+
+// ********** Begin Class ATooMuchForZblockCharacter Function DoMove *******************************
+struct Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove_Statics
+{
+	struct TooMuchForZblockCharacter_eventDoMove_Parms
+	{
+		float Right;
+		float Forward;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Input" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** Handles move inputs from either controls or UI interfaces */" },
+#endif
+		{ "ModuleRelativePath", "TooMuchForZblockCharacter.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Handles move inputs from either controls or UI interfaces" },
+#endif
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_Right;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_Forward;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove_Statics::NewProp_Right = { "Right", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TooMuchForZblockCharacter_eventDoMove_Parms, Right), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove_Statics::NewProp_Forward = { "Forward", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TooMuchForZblockCharacter_eventDoMove_Parms, Forward), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove_Statics::NewProp_Right,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove_Statics::NewProp_Forward,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ATooMuchForZblockCharacter, nullptr, "DoMove", Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove_Statics::PropPointers), sizeof(Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove_Statics::TooMuchForZblockCharacter_eventDoMove_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove_Statics::Function_MetaDataParams), Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove_Statics::TooMuchForZblockCharacter_eventDoMove_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ATooMuchForZblockCharacter::execDoMove)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_Right);
+	P_GET_PROPERTY(FFloatProperty,Z_Param_Forward);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->DoMove(Z_Param_Right,Z_Param_Forward);
+	P_NATIVE_END;
+}
+// ********** End Class ATooMuchForZblockCharacter Function DoMove *********************************
+
+// ********** Begin Class ATooMuchForZblockCharacter ***********************************************
 void ATooMuchForZblockCharacter::StaticRegisterNativesATooMuchForZblockCharacter()
 {
+	UClass* Class = ATooMuchForZblockCharacter::StaticClass();
+	static const FNameNativePtrPair Funcs[] = {
+		{ "DoAim", &ATooMuchForZblockCharacter::execDoAim },
+		{ "DoJumpEnd", &ATooMuchForZblockCharacter::execDoJumpEnd },
+		{ "DoJumpStart", &ATooMuchForZblockCharacter::execDoJumpStart },
+		{ "DoMove", &ATooMuchForZblockCharacter::execDoMove },
+	};
+	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(ATooMuchForZblockCharacter);
+FClassRegistrationInfo Z_Registration_Info_UClass_ATooMuchForZblockCharacter;
+UClass* ATooMuchForZblockCharacter::GetPrivateStaticClass()
+{
+	using TClass = ATooMuchForZblockCharacter;
+	if (!Z_Registration_Info_UClass_ATooMuchForZblockCharacter.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("TooMuchForZblockCharacter"),
+			Z_Registration_Info_UClass_ATooMuchForZblockCharacter.InnerSingleton,
+			StaticRegisterNativesATooMuchForZblockCharacter,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_ATooMuchForZblockCharacter.InnerSingleton;
+}
 UClass* Z_Construct_UClass_ATooMuchForZblockCharacter_NoRegister()
 {
-	return ATooMuchForZblockCharacter::StaticClass();
+	return ATooMuchForZblockCharacter::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_ATooMuchForZblockCharacter_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/**\n *  A basic first person character\n */" },
+#endif
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "TooMuchForZblockCharacter.h" },
 		{ "ModuleRelativePath", "TooMuchForZblockCharacter.h" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Mesh1P_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
-		{ "Category", "Mesh" },
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Pawn mesh: 1st person view (arms; seen only by self) */" },
+		{ "ToolTip", "A basic first person character" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FirstPersonMesh_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Components" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** Pawn mesh: first person view (arms; seen only by self) */" },
 #endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "TooMuchForZblockCharacter.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Pawn mesh: 1st person view (arms; seen only by self)" },
+		{ "ToolTip", "Pawn mesh: first person view (arms; seen only by self)" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FirstPersonCameraComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
-		{ "Category", "Camera" },
+		{ "Category", "Components" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** First person camera */" },
 #endif
@@ -61,19 +280,7 @@ struct Z_Construct_UClass_ATooMuchForZblockCharacter_Statics
 		{ "ToolTip", "First person camera" },
 #endif
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultMappingContext_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
-		{ "Category", "Input" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** MappingContext */" },
-#endif
-		{ "ModuleRelativePath", "TooMuchForZblockCharacter.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "MappingContext" },
-#endif
-	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_JumpAction_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Jump Input Action */" },
@@ -84,7 +291,6 @@ struct Z_Construct_UClass_ATooMuchForZblockCharacter_Statics
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MoveAction_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Move Input Action */" },
@@ -95,7 +301,6 @@ struct Z_Construct_UClass_ATooMuchForZblockCharacter_Statics
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LookAction_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Look Input Action */" },
@@ -105,33 +310,50 @@ struct Z_Construct_UClass_ATooMuchForZblockCharacter_Statics
 		{ "ToolTip", "Look Input Action" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MouseLookAction_MetaData[] = {
+		{ "Category", "Input" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** Mouse Look Input Action */" },
+#endif
+		{ "ModuleRelativePath", "TooMuchForZblockCharacter.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Mouse Look Input Action" },
+#endif
+	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_Mesh1P;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_FirstPersonMesh;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_FirstPersonCameraComponent;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_DefaultMappingContext;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_JumpAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_MoveAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_LookAction;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_MouseLookAction;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
+	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_ATooMuchForZblockCharacter_DoAim, "DoAim" }, // 1057450590
+		{ &Z_Construct_UFunction_ATooMuchForZblockCharacter_DoJumpEnd, "DoJumpEnd" }, // 851650893
+		{ &Z_Construct_UFunction_ATooMuchForZblockCharacter_DoJumpStart, "DoJumpStart" }, // 3365407678
+		{ &Z_Construct_UFunction_ATooMuchForZblockCharacter_DoMove, "DoMove" }, // 2206171639
+	};
+	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATooMuchForZblockCharacter>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_Mesh1P = { "Mesh1P", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATooMuchForZblockCharacter, Mesh1P), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Mesh1P_MetaData), NewProp_Mesh1P_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_FirstPersonMesh = { "FirstPersonMesh", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATooMuchForZblockCharacter, FirstPersonMesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FirstPersonMesh_MetaData), NewProp_FirstPersonMesh_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_FirstPersonCameraComponent = { "FirstPersonCameraComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATooMuchForZblockCharacter, FirstPersonCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FirstPersonCameraComponent_MetaData), NewProp_FirstPersonCameraComponent_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_DefaultMappingContext = { "DefaultMappingContext", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATooMuchForZblockCharacter, DefaultMappingContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DefaultMappingContext_MetaData), NewProp_DefaultMappingContext_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_JumpAction = { "JumpAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATooMuchForZblockCharacter, JumpAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_JumpAction_MetaData), NewProp_JumpAction_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATooMuchForZblockCharacter, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MoveAction_MetaData), NewProp_MoveAction_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_LookAction = { "LookAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATooMuchForZblockCharacter, LookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LookAction_MetaData), NewProp_LookAction_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_JumpAction = { "JumpAction", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATooMuchForZblockCharacter, JumpAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_JumpAction_MetaData), NewProp_JumpAction_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATooMuchForZblockCharacter, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MoveAction_MetaData), NewProp_MoveAction_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_LookAction = { "LookAction", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATooMuchForZblockCharacter, LookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LookAction_MetaData), NewProp_LookAction_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_MouseLookAction = { "MouseLookAction", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATooMuchForZblockCharacter, MouseLookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MouseLookAction_MetaData), NewProp_MouseLookAction_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_Mesh1P,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_FirstPersonMesh,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_FirstPersonCameraComponent,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_DefaultMappingContext,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_JumpAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_MoveAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_LookAction,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::NewProp_MouseLookAction,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::DependentSingletons[])() = {
@@ -144,14 +366,14 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_ATooMuchForZblockCharac
 	"Game",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
-	nullptr,
+	FuncInfo,
 	Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
-	0,
+	UE_ARRAY_COUNT(FuncInfo),
 	UE_ARRAY_COUNT(Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::PropPointers),
 	0,
-	0x008000A4u,
+	0x008001A5u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::Class_MetaDataParams), Z_Construct_UClass_ATooMuchForZblockCharacter_Statics::Class_MetaDataParams)
 };
 UClass* Z_Construct_UClass_ATooMuchForZblockCharacter()
@@ -162,24 +384,21 @@ UClass* Z_Construct_UClass_ATooMuchForZblockCharacter()
 	}
 	return Z_Registration_Info_UClass_ATooMuchForZblockCharacter.OuterSingleton;
 }
-template<> TOOMUCHFORZBLOCK_API UClass* StaticClass<ATooMuchForZblockCharacter>()
-{
-	return ATooMuchForZblockCharacter::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(ATooMuchForZblockCharacter);
 ATooMuchForZblockCharacter::~ATooMuchForZblockCharacter() {}
-// End Class ATooMuchForZblockCharacter
+// ********** End Class ATooMuchForZblockCharacter *************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_UnrealProjects_TooMuchForZblock_TooMuchForZblock_Source_TooMuchForZblock_TooMuchForZblockCharacter_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_UnrealProjects_TooMuchForZblock_TooMuchForZblock_Source_TooMuchForZblock_TooMuchForZblockCharacter_h__Script_TooMuchForZblock_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ATooMuchForZblockCharacter, ATooMuchForZblockCharacter::StaticClass, TEXT("ATooMuchForZblockCharacter"), &Z_Registration_Info_UClass_ATooMuchForZblockCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATooMuchForZblockCharacter), 2040712897U) },
+		{ Z_Construct_UClass_ATooMuchForZblockCharacter, ATooMuchForZblockCharacter::StaticClass, TEXT("ATooMuchForZblockCharacter"), &Z_Registration_Info_UClass_ATooMuchForZblockCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATooMuchForZblockCharacter), 336920592U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_TooMuchForZblock_TooMuchForZblock_Source_TooMuchForZblock_TooMuchForZblockCharacter_h_73430165(TEXT("/Script/TooMuchForZblock"),
-	Z_CompiledInDeferFile_FID_UnrealProjects_TooMuchForZblock_TooMuchForZblock_Source_TooMuchForZblock_TooMuchForZblockCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_TooMuchForZblock_TooMuchForZblock_Source_TooMuchForZblock_TooMuchForZblockCharacter_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_TooMuchForZblock_TooMuchForZblock_Source_TooMuchForZblock_TooMuchForZblockCharacter_h__Script_TooMuchForZblock_3307046624(TEXT("/Script/TooMuchForZblock"),
+	Z_CompiledInDeferFile_FID_UnrealProjects_TooMuchForZblock_TooMuchForZblock_Source_TooMuchForZblock_TooMuchForZblockCharacter_h__Script_TooMuchForZblock_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_TooMuchForZblock_TooMuchForZblock_Source_TooMuchForZblock_TooMuchForZblockCharacter_h__Script_TooMuchForZblock_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

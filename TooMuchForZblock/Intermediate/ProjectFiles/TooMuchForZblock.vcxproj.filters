@@ -38,38 +38,152 @@
     <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblock.cpp">
       <Filter>Source\TooMuchForZblock</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblock.h">
+    <ClInclude Include="..\..\Source\TooMuchForZblock\TooMuchForZblock.h">
+      <Filter>Source\TooMuchForZblock</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockCameraManager.cpp">
       <Filter>Source\TooMuchForZblock</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\TooMuchForZblockCameraManager.h">
+      <Filter>Source\TooMuchForZblock</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockCharacter.cpp">
       <Filter>Source\TooMuchForZblock</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockCharacter.h">
+    <ClInclude Include="..\..\Source\TooMuchForZblock\TooMuchForZblockCharacter.h">
       <Filter>Source\TooMuchForZblock</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockGameMode.cpp">
       <Filter>Source\TooMuchForZblock</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockGameMode.h">
+    <ClInclude Include="..\..\Source\TooMuchForZblock\TooMuchForZblockGameMode.h">
+      <Filter>Source\TooMuchForZblock</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockPlayerController.cpp">
       <Filter>Source\TooMuchForZblock</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockPickUpComponent.cpp">
+    <ClInclude Include="..\..\Source\TooMuchForZblock\TooMuchForZblockPlayerController.h">
       <Filter>Source\TooMuchForZblock</Filter>
+    </ClInclude>
+    <Filter Include="Source\TooMuchForZblock\Variant_Horror">
+      <UniqueIdentifier>{0978F45B-761B-3115-96D1-FAF4E80651D0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Horror\HorrorCharacter.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Horror</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockPickUpComponent.h">
-      <Filter>Source\TooMuchForZblock</Filter>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Horror\HorrorCharacter.h">
+      <Filter>Source\TooMuchForZblock\Variant_Horror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Horror\HorrorGameMode.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Horror</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockProjectile.cpp">
-      <Filter>Source\TooMuchForZblock</Filter>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Horror\HorrorGameMode.h">
+      <Filter>Source\TooMuchForZblock\Variant_Horror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Horror\HorrorPlayerController.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Horror</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockProjectile.h">
-      <Filter>Source\TooMuchForZblock</Filter>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Horror\HorrorPlayerController.h">
+      <Filter>Source\TooMuchForZblock\Variant_Horror</Filter>
+    </ClInclude>
+    <Filter Include="Source\TooMuchForZblock\Variant_Horror\UI">
+      <UniqueIdentifier>{6FC05C8C-B696-3523-9025-267235AF4D6C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Horror\UI\HorrorUI.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Horror\UI</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockWeaponComponent.cpp">
-      <Filter>Source\TooMuchForZblock</Filter>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Horror\UI\HorrorUI.h">
+      <Filter>Source\TooMuchForZblock\Variant_Horror\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\TooMuchForZblock\Variant_Shooter">
+      <UniqueIdentifier>{05ADE84B-4E46-30D1-9147-34F8CCD6ED77}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Shooter\ShooterCharacter.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\TooMuchForZblock\TooMuchForZblockWeaponComponent.h">
-      <Filter>Source\TooMuchForZblock</Filter>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Shooter\ShooterCharacter.h">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Shooter\ShooterGameMode.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Shooter\ShooterGameMode.h">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Shooter\ShooterPlayerController.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Shooter\ShooterPlayerController.h">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter</Filter>
+    </ClInclude>
+    <Filter Include="Source\TooMuchForZblock\Variant_Shooter\AI">
+      <UniqueIdentifier>{4A44A232-8D42-34B8-9BDC-D3C8D7ED520F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Shooter\AI\EnvQueryContext_Target.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Shooter\AI\EnvQueryContext_Target.h">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Shooter\AI\ShooterAIController.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Shooter\AI\ShooterAIController.h">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Shooter\AI\ShooterNPC.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Shooter\AI\ShooterNPC.h">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Shooter\AI\ShooterStateTreeUtility.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Shooter\AI\ShooterStateTreeUtility.h">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\TooMuchForZblock\Variant_Shooter\UI">
+      <UniqueIdentifier>{5CCF6BFD-79BA-3548-9DAA-EA6376880A8F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Shooter\UI\ShooterBulletCounterUI.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Shooter\UI\ShooterBulletCounterUI.h">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Shooter\UI\ShooterUI.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Shooter\UI\ShooterUI.h">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\TooMuchForZblock\Variant_Shooter\Weapons">
+      <UniqueIdentifier>{ADECCD0D-B106-3314-8562-03D2E8AF262F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Shooter\Weapons\ShooterPickup.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Shooter\Weapons\ShooterPickup.h">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Shooter\Weapons\ShooterProjectile.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Shooter\Weapons\ShooterProjectile.h">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Shooter\Weapons\ShooterWeapon.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Shooter\Weapons\ShooterWeapon.h">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TooMuchForZblock\Variant_Shooter\Weapons\ShooterWeaponHolder.cpp">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TooMuchForZblock\Variant_Shooter\Weapons\ShooterWeaponHolder.h">
+      <Filter>Source\TooMuchForZblock\Variant_Shooter\Weapons</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\source\\toomuchforzblock\\variant_shooter\\weapons\\shooterweaponholder.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\intermediate\\build\\win64\\x64\\toomuchforzblockeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\toomuchforzblock\\definitions.toomuchforzblock.h",
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\source\\toomuchforzblock\\variant_shooter\\weapons\\shooterweaponholder.h",
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\intermediate\\build\\win64\\unrealeditor\\inc\\toomuchforzblock\\uht\\shooterweaponholder.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

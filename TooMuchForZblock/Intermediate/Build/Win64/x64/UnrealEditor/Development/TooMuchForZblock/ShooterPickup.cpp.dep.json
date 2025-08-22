@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\source\\toomuchforzblock\\variant_shooter\\weapons\\shooterpickup.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\intermediate\\build\\win64\\x64\\toomuchforzblockeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\toomuchforzblock\\definitions.toomuchforzblock.h",
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\source\\toomuchforzblock\\variant_shooter\\weapons\\shooterpickup.h",
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\intermediate\\build\\win64\\unrealeditor\\inc\\toomuchforzblock\\uht\\shooterpickup.generated.h",
+            "d:\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "d:\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "d:\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spherecomponent.generated.h",
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\source\\toomuchforzblock\\variant_shooter\\weapons\\shooterweaponholder.h",
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\intermediate\\build\\win64\\unrealeditor\\inc\\toomuchforzblock\\uht\\shooterweaponholder.generated.h",
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\source\\toomuchforzblock\\variant_shooter\\weapons\\shooterweapon.h",
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\intermediate\\build\\win64\\unrealeditor\\inc\\toomuchforzblock\\uht\\shooterweapon.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

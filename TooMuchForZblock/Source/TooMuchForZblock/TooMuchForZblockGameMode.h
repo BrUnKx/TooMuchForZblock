@@ -6,7 +6,10 @@
 #include "GameFramework/GameModeBase.h"
 #include "TooMuchForZblockGameMode.generated.h"
 
-UCLASS(minimalapi)
+/**
+ *  Simple GameMode for a first person game
+ */
+UCLASS(abstract)
 class ATooMuchForZblockGameMode : public AGameModeBase
 {
 	GENERATED_BODY()

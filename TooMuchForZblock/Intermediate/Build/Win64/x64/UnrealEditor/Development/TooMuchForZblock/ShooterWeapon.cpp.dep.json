@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\source\\toomuchforzblock\\variant_shooter\\weapons\\shooterweapon.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\intermediate\\build\\win64\\x64\\toomuchforzblockeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\toomuchforzblock\\definitions.toomuchforzblock.h",
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\source\\toomuchforzblock\\variant_shooter\\weapons\\shooterweapon.h",
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\source\\toomuchforzblock\\variant_shooter\\weapons\\shooterweaponholder.h",
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\intermediate\\build\\win64\\unrealeditor\\inc\\toomuchforzblock\\uht\\shooterweaponholder.generated.h",
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\intermediate\\build\\win64\\unrealeditor\\inc\\toomuchforzblock\\uht\\shooterweapon.generated.h",
+            "d:\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.h",
+            "d:\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetmathlibrary.generated.h",
+            "d:\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl",
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\source\\toomuchforzblock\\variant_shooter\\weapons\\shooterprojectile.h",
+            "d:\\epic games\\unrealprojects\\toomuchforzblock\\toomuchforzblock\\intermediate\\build\\win64\\unrealeditor\\inc\\toomuchforzblock\\uht\\shooterprojectile.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
